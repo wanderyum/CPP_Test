@@ -1,2 +1,0 @@
-D:\Github\CPP_practice\CMake\1_simple\build\Debug\func.pdb
-D:\Github\CPP_practice\CMake\1_simple\build\func.dir\Debug\func.pdb

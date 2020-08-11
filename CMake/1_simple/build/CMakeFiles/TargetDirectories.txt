@@ -1,4 +1,0 @@
-D:/Github/CPP_practice/CMake/1_simple/build/CMakeFiles/func.dir
-D:/Github/CPP_practice/CMake/1_simple/build/CMakeFiles/main.dir
-D:/Github/CPP_practice/CMake/1_simple/build/CMakeFiles/ALL_BUILD.dir
-D:/Github/CPP_practice/CMake/1_simple/build/CMakeFiles/ZERO_CHECK.dir
