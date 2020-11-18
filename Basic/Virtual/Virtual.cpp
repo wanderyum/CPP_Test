@@ -13,7 +13,9 @@ public:
 
 class son1: public parent{
 public:
-    virtual void intro(){std::cout << "son1!\n";}
+    virtual void intro(){std::cout << "son" << num() << std::endl;}
+private:
+    int num(){return 1;}
 };
 
 class son2: public parent{
