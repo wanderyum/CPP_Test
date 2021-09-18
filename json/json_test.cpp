@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "json.hpp"
 
 using json = nlohmann::json;
@@ -46,6 +47,19 @@ int main(){
     std::cout << j["answer"] << std::endl;
     std::cout << j2["happy"] << std::endl;
     std::cout << j2 << std::endl;
+    
+    auto j3 = R"(
+    {
+        "happy": true,
+        "pi": 3.141
+    }
+    )"_json;
+
+    auto j4 = json::parse(R"({"happy": true, "pi": 3.141})");
+
+    /* 4-space indent */
+    std::string js = j4.dump(4);
+    std::cout << "json string: " << js << std::endl;
 
     return 0;
 }
